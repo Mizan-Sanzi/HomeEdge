@@ -42,7 +42,7 @@
     <!-- header section -->
 
     <header>
-        <nav class="bg-[#f2f2f2]">
+        <nav class="bg-base-100">
             <div class="navbar justify-between container mx-auto pt-6">
                 <div class="">
                     <button class="flex text-p-title font-black text-3xl items-center">
@@ -117,7 +117,7 @@
         <!-- header container -->
         <div>
             <div>
-                <div class="hero bg-base-200 min-h-screen">
+                <div class="hero bg-base-100 min-h-screen">
                     <div class="hero-content text-center">
                         <div class="max-w-screen">
                             <div><img class="max-w-screen inline-block" src="assets/banner.png"></div>
@@ -145,22 +145,6 @@
     </header>
     <!-- main section -->
     <main>
-        <!--                                                              Unique Section -->
-        <section>
-            <div class="diff aspect-[16/9] h-max lg:h-40 mb-5">
-                <div class="diff-item-1">
-                    <div
-                        class="bg-[#acadc2] text-primary-content grid place-content-center text-center text-7xl text-white lg:bg[#acadc2]">
-                        HomeEdge: Your home is here!
-                    </div>
-                </div>
-                <div class="diff-item-2">
-                    <div class="bg-base-200 grid place-content-center m-3 p-2 text-center text-7xl font-black">Open The
-                        door from right.</div>
-                </div>
-                <div class="diff-resizer"></div>
-            </div>
-        </section>
         <!-- about us section -->
         <section>
             <div class="hero bg-base-200 min-h-screen relative">
@@ -255,7 +239,7 @@
             </div>
         </section>
         <!--                                           Our Latest portfolio Section/         challenge part -->
-        <section class="py-8 lg:py-20 lg:bg-white">
+        <section class="py-8 lg:py-20 lg:bg-base-100">
             <div class="container mx-auto px-3">
                 <!-- portfolio container -->
                 <div class="card">
@@ -342,6 +326,38 @@
                 </div>
             </div>
         </section>
+        <!--                                                             Unique Section -->
+        <div class="hero bg-base-200 min-h-screen">
+            <div class="hero-content flex-col lg:flex-row">
+              <img
+                src="assets/article1.png"
+                class="max-w-sm min-h-full rounded-lg shadow-2xl" />
+              <div class="ml-3">
+                <h1 class="text-4xl font-bold">Home Planning: Frequently Asked Questions</h1>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3"/>
+                    <div class="collapse-title text-xl font-medium">What do I need most to make a plan for home?</div>
+                    <div class="collapse-content">
+                      <p>Budget, Space Requirements, Design Preferences, Existing Conditions, Legal and Regulatory Considerations.</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">What is the total cost of building a home?</div>
+                    <div class="collapse-content">
+                      <p>The total cost of building a home includes expenses for land, construction, permits, and finishing, and varies widely based on location, size, and materials.</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">What permits and approvals are required before home construction?</div>
+                    <div class="collapse-content">
+                      <p>You'll need to obtain permits for zoning, construction, and utilities, and ensure compliance with local building codes and regulations.</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
         <!--                                          Let's discuss next project section -->
         <section class="bg-contact-bg bg-opacity-50 bg-cover bg-center border-y-4 lg:border-y-8 border-white">
             <div class="lg:py-20 py-8 max-w-4xl mx-auto px-3">
